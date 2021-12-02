@@ -11464,7 +11464,7 @@ section.resume-section .resume-section-content {
   background-size: auto 100vh;
 }
 
-#dlresume{
+#dlresume-desktop{
   letter-spacing: 0.05rem;
   text-align: center;
   width:15rem;
@@ -11478,10 +11478,22 @@ section.resume-section .resume-section-content {
   font-size: 1rem;
   text-decoration: none;
 }
-#dlresume:hover {
+#dlresume-desktop:hover {
   background-color: var(--bs-gray-800);
+  transition: 0.3s;
 }
+#dlresume-mobile{
+  text-align: center;
+  background-color: #358393;
+  margin-top: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  border-radius: 30px;
+  color: white;
+  text-decoration: none;
 
+
+}
 #intro{
   color: #4E545A;
 }
