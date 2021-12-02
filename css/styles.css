@@ -62,7 +62,8 @@
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
   --bs-body-bg: #fff;
-  --primary-colour: #026478
+  --primary-colour: #026478;
+  --accent-colour: #358393;
 }
 
 *,
@@ -11459,12 +11460,13 @@ section.resume-section .resume-section-content {
   }
 
 }
-#bgimage{
+#bgimage {
   background-image: url("../assets/img/background.jpg");
   background-size: auto 100vh;
 }
 
-#dlresume-desktop{
+#dlresumedesktop {
+  text-decoration: none;
   letter-spacing: 0.05rem;
   text-align: center;
   width:15rem;
@@ -11472,27 +11474,24 @@ section.resume-section .resume-section-content {
   padding-right: 2.5rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #358393;
+  background-color: var(--accent-colour);
   color: white;
   border-radius: 30px;
   font-size: 1rem;
-  text-decoration: none;
 }
-#dlresume-desktop:hover {
+#dlresumedesktop:hover {
   background-color: var(--bs-gray-800);
   transition: 0.3s;
 }
-#dlresume-mobile{
+#dlresumemobile {
+  text-decoration: none;
   text-align: center;
-  background-color: #358393;
+  background-color: var(--accent-colour);
   margin-top: 1rem;
   padding-top: .5rem;
   padding-bottom: .5rem;
   border-radius: 30px;
   color: white;
-  text-decoration: none;
-
-
 }
 #intro{
   color: #4E545A;
