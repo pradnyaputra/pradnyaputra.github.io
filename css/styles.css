@@ -11422,7 +11422,7 @@ section.resume-section .resume-section-content {
   width: 100%;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 400px) {
   .proj{
     width: 100%;
   }
